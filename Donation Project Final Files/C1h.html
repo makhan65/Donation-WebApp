@@ -1,0 +1,168 @@
+<html>
+
+	<head>
+		
+		<title>Payment</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+			<link rel="SHORTCUT ICON" href="favicon.ico"/>
+			<link href="C1s.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+
+
+
+
+	</head>
+	<body>
+		<!--
+		<div id="topnavbar">
+					<ul>
+						<li><a href="SDHP.html">Homepage</a></li>
+						
+							<ul>
+								<li><a href="architecture.html">Architecture</a></li>
+								
+							</ul>
+						</li>
+						<li><a href="HeadPhoneinfo.html">Headphone Buy</a></li>
+						<li><a href="Shipping&Payment.html">Shipping & Payment</a>
+							<ul>
+								<li><a href="Shipping&Payment.html">Enter Shipment adress</a></li>
+								<li><a href="Shipping&Payment.html">Payment Method</a></li>
+								
+							</ul>
+						</li>
+						
+						<li><a href="About.html">About us</a></li>
+						
+					</ul>
+					
+			</div>-->  
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			
+		<!-- This is where i want the tabs for menu-->
+<h2><p>Donating to "XYZ"</p></h2>
+			<div class="row">
+			  <div class="col-75">
+				<div class="container">
+				  <form action="/handle_form.php">
+				  
+					<div class="row">
+					  <div class="col-50">
+						<h3>Personal Information</h3>
+						<label for="fname"><i class="fa fa-user"></i> Full Name</label>
+						<input type="text" id="fname" name="firstname" >
+						
+						<label for="email"><i class="fa fa-envelope"></i> Email</label>
+						<input type="text"  id="email" name="email" size="10" >
+						
+						<label for="Phone"><i class="fa fa-envelope"></i> Phone No</label>
+						<input type="text" id="email" name="email">
+						
+						<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+						<input type="text" id="adr" name="address" >
+						
+						<label for="city"><i class="fa fa-institution"></i> City</label>
+						<input type="text" id="city" name="city" >
+
+						<div class="row">
+						  <div class="col-50">
+							<label for="state">State</label>
+							<input type="text" id="state" name="state" >
+						  </div>
+						  <div class="col-50">
+							<label for="zip">Zip</label>
+							<input type="text" id="zip" name="zip" >
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="col-50">
+						<h3>Payment Method</h3>
+						<label for="fname">All transactions are secure and encrypted</label>
+						<div class="icon-container">
+						  <i class="fa fa-cc-visa" style="color:navy;"></i>
+						  <i class="fa fa-cc-amex" style="color:blue;"></i>
+						  <i class="fa fa-cc-mastercard" style="color:red;"></i>
+						  <i class="fa fa-cc-discover" style="color:orange;"></i>
+						</div>
+						<label for="cname">Card Holder Name</label>
+						<input type="text" id="cname" name="cardname" >
+						<label for="ccnum">Credit card number</label>
+						<input type="text" id="ccnum" name="cardnumber">
+						<label for="expmonth">Exp Month</label>
+						<input type="text" id="expmonth" name="expmonth" >
+						<div class="row">
+						  <div class="col-50">
+							<label for="expyear">Exp Year</label>
+							<input type="text" id="expyear" name="expyear" >
+						  </div>
+						  <div class="col-50">
+							<label for="cvv">CVV</label>
+							<input type="text" id="cvv" name="cvv" placeholder="412">
+						  </div>
+						</div>
+					  </div>
+					  
+					</div>
+					
+				<!--	<label>
+					  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+					</label>-->
+					
+					<h4> Reason for Donation: </h4>
+					
+					<p><label> <textarea name="comments" rows="5" cols="170"></textarea></label></p>
+					
+					<div class="popup" onclick="myFunction()";">
+				<div class="cc">
+				<input type="submit" name="submit" 
+					 value="Donate"/>
+					
+				</div>
+				<span class="popuptext" id="myPopup"><!--Thank</br>
+				you </br>
+				for</br>
+				donating.</br>
+				You will </br>
+				receive </br>
+				a </br>
+				confirmation </br>
+				shortly.--><h2> THANK YOU (XXX) </h2>
+			
+			<p> Your will be notified once the payment is processed(xxx) </p>
+			
+			<!--<p> Sharing your donation with your network</br>
+			can increase its impact by 18% </p>
+			<button class="btn success">Success</button>
+<button class="btn info">Info</button>
+<button class="btn warning">Warning</button>
+<button class="btn danger">Danger</button>
+<button class="btn default">Default</button>
+				
+				</span>
+			</div>-->
+
+		<script>
+		// When the user clicks on div, open the popup
+		function myFunction() {
+			var popup = document.getElementById("myPopup");
+			popup.classList.toggle("show");
+		}
+		</script>
+				  </form>
+				</div>
+			  </div>
+			  
+			</div>
+	
+	
+			
+
+
+
+
+
+	</body>
+</html>
